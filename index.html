@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
+        h1 { color: #4CAF50; }
+        p { font-size: 1.2em; }
+        footer { margin-top: 20px; color: #888; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My GitHub Pages Demo!</h1>
+    <p>This is a simple example of a website hosted on GitHub Pages.</p>
+    <p>You can automatically update this page by pushing new changes to the repository.</p>
+    
+    <footer>
+        <p>Last updated on: <span id="timestamp">DATE_TIME</span></p>
+    </footer>
+
+    <script>
+        // This script updates the timestamp dynamically
+        document.getElementById("timestamp").textContent = new Date().toLocaleString();
+    </script>
+</body>
+</html>
